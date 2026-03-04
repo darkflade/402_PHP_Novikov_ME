@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Trebuchet MS", "Segoe UI", Tahoma, sans-serif;
+    background:
+        radial-gradient(circle at 10% 10%, #ffe4b7 0, rgba(255, 228, 183, 0) 40%),
+        radial-gradient(circle at 85% 20%, #d8f5ff 0, rgba(216, 245, 255, 0) 45%),
+        #f5f7fb;
+    color: #1c2431;
+}
+
+.container {
+    max-width: 920px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+h1,
+h2 {
+    margin-top: 0;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid #2563eb;
+    background: #2563eb;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button-outline {
+    background: transparent;
+    color: #2563eb;
+}
+
+.answer-yes {
+    background: #1f8f4a;
+    border-color: #1f8f4a;
+}
+
+.answer-no {
+    background: #cc3d3d;
+    border-color: #cc3d3d;
+}
+
+.link {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.panel {
+    background: #ffffff;
+    border: 1px solid #dbe3ef;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.panel-hero {
+    border-color: #c8d8f8;
+}
+
+.panel-game {
+    border-color: #bcdcc8;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    max-width: 380px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #b6c2d1;
+    margin-bottom: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+th,
+td {
+    border: 1px solid #dbe3ef;
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background: #f7f9fc;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row-between {
+    justify-content: space-between;
+}
+
+.muted {
+    color: #5b6676;
+}
+
+.code {
+    background: #0f172a;
+    color: #e2e8f0;
+    border-radius: 10px;
+    padding: 12px;
+    overflow: auto;
+    font-size: 13px;
+}
+
+.number-box {
+    font-size: 54px;
+    font-weight: 800;
+    text-align: center;
+    margin: 6px 0 14px;
+    letter-spacing: 1px;
+}
+
+.score {
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
